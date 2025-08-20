@@ -1,0 +1,109 @@
+===== evidence/qotd.har.txt =====
+# File: evidence/qotd.har.txt
+## Unique Domains
+ - na-api-alexa.amazon.ca
+ - signaler-pa.clients6.google.com
+
+## Sample Endpoints
+ - https://na-api-alexa.amazon.ca/api/np/list-media-sessions
+ - https://signaler-pa.clients6.google.com/punctual/multi-watch/channel
+# Summary for evidence/qotd.har.txt
+
+## Requests per Host
+ - na-api-alexa.amazon.ca: 1
+ - signaler-pa.clients6.google.com: 1
+
+## Possible Analytics Calls
+ - None detected
+
+## Possible OAuth / Account Linking
+ - None detected
+===== evidence/cat_facts.har.txt =====
+# File: evidence/cat_facts.har.txt
+## Unique Domains
+ - na-api-alexa.amazon.ca
+ - signaler-pa.clients6.google.com
+
+## Sample Endpoints
+ - https://na-api-alexa.amazon.ca/api/np/list-media-sessions
+ - https://signaler-pa.clients6.google.com/punctual/multi-watch/channel
+# Summary for evidence/cat_facts.har.txt
+
+## Requests per Host
+ - na-api-alexa.amazon.ca: 1
+ - signaler-pa.clients6.google.com: 1
+
+## Possible Analytics Calls
+ - None detected
+
+## Possible OAuth / Account Linking
+ - None detected
+===== evidence/ask_my_buddy_oauth.simulated.har.txt =====
+# File: evidence/ask_my_buddy_oauth.simulated.har.txt
+## Unique Domains
+ - askmybuddy.net
+ - pitangui.amazon.com
+ - www.google-analytics.com
+
+## Sample Endpoints
+ - https://pitangui.amazon.com/accountLink/validate?client_id=amzn1.application-oa2-client.XYZ&redirect_uri=https%3A%2F%2Faskmybuddy.net%2FloginSystem%2FloginNew&response_type=code
+ - https://askmybuddy.net/loginSystem/loginNew?code=AUTH_CODE
+ - https://www.google-analytics.com/collect
+# Summary for evidence/ask_my_buddy_oauth.simulated.har.txt
+
+## Requests per Host
+ - pitangui.amazon.com: 1
+ - askmybuddy.net: 1
+ - www.google-analytics.com: 1
+
+## Possible Analytics Calls
+ - https://www.google-analytics.com/collect
+
+## Possible OAuth / Account Linking
+ - https://askmybuddy.net/loginSystem/loginNew?code=AUTH_CODE
+ - https://pitangui.amazon.com/accountLink/validate?client_id=amzn1.application-oa2-client.XYZ&redirect_uri=https%3A%2F%2Faskmybuddy.net%2FloginSystem%2FloginNew&response_type=code
+===== evidence/philips_hue_oauth.har.txt =====
+# File: evidence/philips_hue_oauth.har.txt
+## Unique Domains
+ - account.meethue.com
+ - auth.meethue.com
+ - na-api-alexa.amazon.com
+
+## Sample Endpoints
+ - https://auth.meethue.com/authorize?client_id=amazon_alexa&redirect_uri=https%3A%2F%2Fpitangui.amazon.com%2Fapi%2Fv1%2FaccountLink%2Fvalidate&response_type=code&state=XYZ&code_challenge=abc&code_challenge_method=S256&scope=openid%20email
+ - https://account.meethue.com/get-token?app_name=Alexa&appid=amazon_alexa
+ - https://na-api-alexa.amazon.com/link/callback?code=AUTH_CODE&state=XYZ
+# Summary for evidence/philips_hue_oauth.har.txt
+
+## Requests per Host
+ - auth.meethue.com: 1
+ - account.meethue.com: 1
+ - na-api-alexa.amazon.com: 1
+
+## Possible Analytics Calls
+ - None detected
+
+## Possible OAuth / Account Linking
+ - https://auth.meethue.com/authorize?client_id=amazon_alexa&redirect_uri=https%3A%2F%2Fpitangui.amazon.com%2Fapi%2Fv1%2FaccountLink%2Fvalidate&response_type=code&state=XYZ&code_challenge=abc&code_challenge_method=S256&scope=openid%20email
+ - https://na-api-alexa.amazon.com/link/callback?code=AUTH_CODE&state=XYZ
+===== evidence/sleep_sounds.simulated.har.txt =====
+# File: evidence/sleep_sounds.simulated.har.txt
+## Unique Domains
+ - cdn.sleepjar.com
+ - www.google-analytics.com
+
+## Sample Endpoints
+ - https://cdn.sleepjar.com/streams/whitenoise/index.m3u8
+ - https://cdn.sleepjar.com/streams/whitenoise/segment0001.ts
+ - https://www.google-analytics.com/collect
+# Summary for evidence/sleep_sounds.simulated.har.txt
+
+## Requests per Host
+ - cdn.sleepjar.com: 2
+ - www.google-analytics.com: 1
+
+## Possible Analytics Calls
+ - https://www.google-analytics.com/collect
+
+## Possible OAuth / Account Linking
+ - None detected
