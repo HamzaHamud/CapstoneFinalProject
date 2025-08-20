@@ -2,7 +2,8 @@
 
 This repository contains artifacts collected during an Alexa security & privacy research project for **COMP 4990B**.
 
-Student: **Ahed Abujebeh** , **Hamza Hamud**,
+Student: **Ahed Abujebeh** , **Hamza Hamud**
+
 Professor: **Sherif Saad**  
 Institution: **University of Windsor**  
 Term: 2025
