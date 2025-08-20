@@ -1,0 +1,20 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": { "name": "Simulated Generator", "version": "1.0" },
+    "entries": [
+      {
+        "startedDateTime": "2025-08-19T00:20:00Z",
+        "time": 55,
+        "request": { "method": "GET", "url": "https://na-api-alexa.amazon.ca/api/np/list-media-sessions" },
+        "response": { "status": 200, "statusText": "OK" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:20:03Z",
+        "time": 65,
+        "request": { "method": "GET", "url": "https://signaler-pa.clients6.google.com/punctual/multi-watch/channel" },
+        "response": { "status": 200, "statusText": "OK" }
+      }
+    ]
+  }
+}

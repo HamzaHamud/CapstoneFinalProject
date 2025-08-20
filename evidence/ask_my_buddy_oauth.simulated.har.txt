@@ -1,0 +1,29 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": { "name": "Simulated Generator", "version": "1.0" },
+    "entries": [
+      {
+        "startedDateTime": "2025-08-19T00:05:00Z",
+        "time": 90,
+        "request": {
+          "method": "GET",
+          "url": "https://pitangui.amazon.com/accountLink/validate?client_id=amzn1.application-oa2-client.XYZ&redirect_uri=https%3A%2F%2Faskmybuddy.net%2FloginSystem%2FloginNew&response_type=code"
+        },
+        "response": { "status": 302, "statusText": "Found" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:05:02Z",
+        "time": 120,
+        "request": { "method": "GET", "url": "https://askmybuddy.net/loginSystem/loginNew?code=AUTH_CODE" },
+        "response": { "status": 200, "statusText": "OK" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:05:10Z",
+        "time": 50,
+        "request": { "method": "POST", "url": "https://www.google-analytics.com/collect" },
+        "response": { "status": 204, "statusText": "No Content" }
+      }
+    ]
+  }
+}

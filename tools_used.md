@@ -1,0 +1,5 @@
+- mitmproxy
+- Python 3.10
+- Chrome/Firefox
+- Wireshark (optional)
+- draw.io

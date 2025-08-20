@@ -1,0 +1,32 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": { "name": "Simulated Generator", "version": "1.0" },
+    "entries": [
+      {
+        "startedDateTime": "2025-08-19T00:10:00Z",
+        "time": 80,
+        "request": {
+          "method": "GET",
+          "url": "https://auth.meethue.com/authorize?client_id=amazon_alexa&redirect_uri=https%3A%2F%2Fpitangui.amazon.com%2Fapi%2Fv1%2FaccountLink%2Fvalidate&response_type=code&state=XYZ&code_challenge=abc&code_challenge_method=S256&scope=openid%20email"
+        },
+        "response": { "status": 302, "statusText": "Found" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:10:02Z",
+        "time": 110,
+        "request": {
+          "method": "GET",
+          "url": "https://account.meethue.com/get-token?app_name=Alexa&appid=amazon_alexa"
+        },
+        "response": { "status": 200, "statusText": "OK" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:10:05Z",
+        "time": 40,
+        "request": { "method": "GET", "url": "https://na-api-alexa.amazon.com/link/callback?code=AUTH_CODE&state=XYZ" },
+        "response": { "status": 200, "statusText": "OK" }
+      }
+    ]
+  }
+}

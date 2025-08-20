@@ -1,0 +1,26 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": { "name": "Simulated Generator", "version": "1.0" },
+    "entries": [
+      {
+        "startedDateTime": "2025-08-19T00:00:00Z",
+        "time": 60,
+        "request": { "method": "GET", "url": "https://cdn.sleepjar.com/streams/whitenoise/index.m3u8" },
+        "response": { "status": 200, "statusText": "OK" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:00:02Z",
+        "time": 120,
+        "request": { "method": "GET", "url": "https://cdn.sleepjar.com/streams/whitenoise/segment0001.ts" },
+        "response": { "status": 200, "statusText": "OK" }
+      },
+      {
+        "startedDateTime": "2025-08-19T00:00:03Z",
+        "time": 50,
+        "request": { "method": "POST", "url": "https://www.google-analytics.com/collect" },
+        "response": { "status": 204, "statusText": "No Content" }
+      }
+    ]
+  }
+}
